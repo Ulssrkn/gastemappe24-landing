@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The digital guest guide for hotels, guesthouses and holiday rentals. Share Wi-Fi, check-in details and local tips by QR code.">
+  <meta name="theme-color" content="#f9f8f3">
+  <title>Gastemappe24 Pro · Digital Guest Guide for Hosts</title>
+  <link rel="icon" href="guide-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="site.js"></script>
+  <link rel="alternate" hreflang="de" href="index.html">
+  <link rel="alternate" hreflang="en" href="index-en.html">
+  <link rel="alternate" hreflang="tr" href="index-tr.html">
+</head>
+<body>
+  <svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="external" viewBox="0 0 24 24"><path d="M6 18 18 6M8 6h10v10"/></symbol>
+    <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="wifi" viewBox="0 0 24 24"><path d="M2 8a16 16 0 0 1 20 0M5 12a11 11 0 0 1 14 0m-11 4a6 6 0 0 1 8 0m-4 4h.01"/></symbol>
+    <symbol id="key" viewBox="0 0 24 24"><circle cx="8" cy="9" r="4"/><path d="m11 12 8 8m-4-4 3-3m-1 5 3-3"/></symbol>
+    <symbol id="pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2"/></symbol>
+    <symbol id="qr" viewBox="0 0 24 24"><path d="M3 3h6v6H3zm12 0h6v6h-6zM3 15h6v6H3zm12 0v3h3v3h3m0-6v3m-6 3h.01"/></symbol>
+    <symbol id="globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></symbol>
+    <symbol id="edit" viewBox="0 0 24 24"><path d="m14 5 5 5M4 20l1-5L16 4a2 2 0 0 1 3 0l1 1a2 2 0 0 1 0 3L9 19z"/></symbol>
+  </svg>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top" id="start">
+    <div class="wrap nav">
+      <a class="brand" href="#start" aria-label="Gastemappe24 home"><img src="logo.svg" alt="Gastemappe24" width="393" height="100"></a>
+      <nav aria-label="Main navigation"><a href="#produkt">Product</a><a href="#ablauf">How it works</a><a href="#preise">Pricing</a><a href="#faq">FAQ</a></nav>
+      <div class="nav-actions">
+        <a class="button small outline customer-login" href="https://gastemappe24-pro.vercel.app/?mode=dashboard&amp;lang=en">Sign in</a>
+        <details class="languages"><summary aria-label="Choose a language, English">EN</summary><nav aria-label="Choose a language"><a href="index.html" lang="de" hreflang="de" aria-label="Deutsch">Deutsch</a><a href="index-en.html" lang="en" hreflang="en" aria-label="English" aria-current="page">English</a><a href="index-tr.html" lang="tr" hreflang="tr" aria-label="Türkçe">Türkçe</a></nav></details>
+        <a class="button small" href="https://gastemappe24-pro.vercel.app/?demo=welcome&amp;lang=en">Live demo <svg><use href="#external"/></svg></a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="wrap hero" aria-labelledby="headline">
+      <div class="intro">
+        <p class="kicker"><i></i> THE DIGITAL GUEST GUIDE</p>
+        <h1 id="headline">Great service<br>starts at<br><em>arrival.</em></h1>
+        <p class="lede">Wi-Fi, check-in and your best tips in one place. Guests scan the QR code to find everything they need on their phones.</p>
+        <div class="actions">
+          <a class="button" href="https://gastemappe24-pro.vercel.app/?demo=welcome&amp;lang=en">View live demo <svg><use href="#external"/></svg></a>
+          <a class="button outline" href="#preise">See pricing <svg><use href="#arrow"/></svg></a>
+        </div>
+        <p class="micro">For hotels, guesthouses &amp; holiday rentals</p>
+      </div>
+      <div class="hero-scene" aria-label="Example of a digital guest guide on a smartphone">
+        <div class="scene-index"><span></span> GUEST VIEW</div>
+        <div class="phone">
+          <div class="phone-top"><span>9:41</span><i></i><span>● ▰</span></div>
+          <div class="phone-brand"><b>L</b><span>HAUS LINDE<small>BOUTIQUE HOTEL</small></span><span class="locale">EN ⌄</span></div>
+          <div class="phone-cover"><small>WELCOME</small><strong>We're glad<br>you're here.</strong></div>
+          <div class="phone-content">
+            <span class="phone-caption">AT A GLANCE</span>
+            <div><svg><use href="#wifi"/></svg><span><b>Wi-Fi</b><small>Connect and settle in</small></span><span>›</span></div>
+            <div><svg><use href="#key"/></svg><span><b>Check-in &amp; check-out</b><small>Times and details</small></span><span>›</span></div>
+            <div><svg><use href="#pin"/></svg><span><b>Our recommendations</b><small>Explore the area</small></span><span>›</span></div>
+          </div>
+        </div>
+        <div class="scene-note"><svg><use href="#qr"/></svg><span><b>One QR code is all you need.</b><small>Open directly in your browser</small></span></div>
+        <span class="scene-caption">ILLUSTRATIVE PREVIEW</span>
+      </div>
+    </section>
+    <div class="wrap proof">
+      <span><svg><use href="#qr"/></svg> Access via QR code</span>
+      <span><svg><use href="#globe"/></svg> 10 languages for your guests</span>
+      <span><svg><use href="#edit"/></svg> Update content anytime</span>
+    </div>
+    <section class="product section" id="produkt" aria-labelledby="product-title">
+      <div class="wrap">
+        <p class="kicker"><i></i> THE GUEST GUIDE IN ACTION</p>
+        <h2 id="product-title">Everything guests need.<br><em>Right at hand.</em></h2>
+        <div class="product-grid">
+          <div class="product-copy">
+            <p>From arrival to the last breakfast, give guests one place to find the information they need throughout their stay.</p>
+            <div class="switches" role="group" aria-label="Choose an example">
+              <button type="button" aria-pressed="true" data-example="wifi"><svg><use href="#wifi"/></svg> Wi-Fi <span>01</span></button>
+              <button type="button" aria-pressed="false" data-example="arrival"><svg><use href="#key"/></svg> Arrival &amp; departure <span>02</span></button>
+              <button type="button" aria-pressed="false" data-example="tips"><svg><use href="#pin"/></svg> Recommendations <span>03</span></button>
+            </div>
+            <a class="textlink" href="https://gastemappe24-pro.vercel.app/?demo=home&amp;lang=en">Open guest demo <svg><use href="#external"/></svg></a>
+          </div>
+          <div class="demo-stage">
+            <p class="kicker">HAUS LINDE <span>EXAMPLE</span></p>
+            <div class="demo-card" aria-live="polite">
+              <div class="demo-icon"><svg><use id="example-icon" href="#wifi"/></svg></div>
+              <h3 id="example-title">Wi-Fi at the property</h3>
+              <p id="example-description">Guest Wi-Fi is available throughout the property.</p>
+              <div class="demo-data"><span id="example-label">NETWORK</span><strong id="example-value">Haus Linde · Guests</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section wrap process" id="ablauf" aria-labelledby="process-title">
+      <p class="kicker"><i></i> IN THREE STEPS</p>
+      <h2 id="process-title">From your information <em>to a QR code.</em></h2>
+      <div class="steps">
+        <article><span class="step">01</span><h3>Add your content</h3><p>Enter Wi-Fi details, breakfast hours, arrival instructions and your own tips in the editor.</p></article>
+        <article><span class="step">02</span><h3>Display your QR code</h3><p>Create a print-ready PDF for reception, a guest room or a holiday rental.</p></article>
+        <article><span class="step">03</span><h3>Guests scan and go</h3><p>The guide opens in the browser. Update content in one place and keep using the same QR code.</p></article>
+      </div>
+    </section>
+    <section class="price section" id="preise" aria-labelledby="price-title">
+      <div class="wrap price-grid">
+        <div>
+          <p class="kicker"><i></i> PRICING &amp; FEATURES</p>
+          <h2 id="price-title">One licence.<br><em>Clear costs.</em></h2>
+          <p class="price-lede">A digital guest guide that fits your property. Make it your own and keep guests up to date.</p>
+          <ul class="features">
+            <li><svg><use href="#check"/></svg> Custom colours, categories and shortcuts</li>
+            <li><svg><use href="#check"/></svg> Guest guide in 10 languages</li>
+            <li><svg><use href="#check"/></svg> Printable QR templates and scan statistics</li>
+            <li><svg><use href="#check"/></svg> Unlimited scans and page views</li>
+          </ul>
+        </div>
+        <div class="offer">
+          <p class="kicker">GASTEMAPPE24 PRO</p>
+          <h3 class="amount">149 €</h3>
+          <p class="tax">One-time licence fee, excluding VAT.</p>
+          <dl><div><dt>Hosting &amp; updates in the first year</dt><dd>Included</dd></div><div><dt>Maintenance &amp; hosting from year two</dt><dd>€19 / year</dd></div></dl>
+          <a class="button" href="https://gastemappe24-pro.vercel.app/?demo=welcome&amp;lang=en">Open live demo <svg><use href="#external"/></svg></a>
+          <p class="offer-note">Explore the read-only dashboard with sample data.</p>
+        </div>
+      </div>
+    </section>
+    <section class="wrap faq section" id="faq" aria-labelledby="faq-title">
+      <div><p class="kicker"><i></i> GOOD TO KNOW</p><h2 id="faq-title">Frequently asked<br><em>questions.</em></h2></div>
+      <div class="questions">
+        <details><summary>Do my guests need an app?</summary><p>The guest guide opens directly in the browser. Guests can scan the QR code or open the link.</p></details>
+        <details><summary>Can I update my content later?</summary><p>Yes. Update your content in the editor. Guests see the latest information using the same link or QR code.</p></details>
+        <details><summary>Which languages does the guest guide support?</summary><p>German, English, Turkish, French, Spanish, Croatian, Albanian, Swedish, Norwegian and Italian.</p></details>
+        <details><summary>What does the guest guide cost from the second year?</summary><p>The one-time licence fee is €149 excluding VAT. The first year of hosting and updates is included. Maintenance and hosting cost €19 per year from the second year.</p></details>
+        <details><summary>Where can I try the guest view?</summary><p>In the <a href="https://gastemappe24-pro.vercel.app/?demo=home&amp;lang=en">Live demo</a> you can open a sample hotel's guest guide.</p></details>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap footer">
+      <a class="brand" href="#start"><img src="logo.svg" alt="Gastemappe24" width="393" height="100"></a>
+      <p class="copyright">© 2026 Gastemappe24. All rights reserved.</p>
+      <nav class="legal-links" aria-label="Legal information">
+        <a href="impressum-en.html">Legal Notice</a>
+        <a href="agb-en.html">Terms</a>
+        <a href="datenschutz-en.html">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
